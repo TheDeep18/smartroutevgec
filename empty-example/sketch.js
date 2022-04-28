@@ -190,7 +190,7 @@ function setup() {
   }
   windowResized()
   // alert("setup")
-  createCanvas(450, 450);
+  createCanvas(330, 330);
   pixelDensity(1)
   console.log("A*");
 
