@@ -41,10 +41,10 @@
   </nav> -->
   <nav class="navbar">
     <div class="container-fluid navbarContainer">
-      <a class="navbarBrand" href="index.html">SmartRoute</a>
+      <a class="navbarBrand mb-4" href="index.html">SmartRoute</a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="navItem">
-          <a class="navLink" href="./about.html">About Us</a>
+          <a class="navLink mt-3" href="./about.html">About Us</a>
         </li>
       </ul>
     </div>
@@ -54,33 +54,44 @@
     <div class="containerCanvas" id="canvas">
       <main>
         <div class="container"></div>
-        <div class="bh1"></div>
-        <div class="bh2"></div>
-        <div class="n"></div>
-        <div class="m"></div>
-        <div class="w"></div>
-        <div class="e"></div>
-        <div class="d"></div>
-        <div class="b"></div>
-        <div class="a"></div>
-        <div class="c"></div>
-        <div class="l"></div>
-        <div class="f"></div>
-        <div class="i"></div>
-        <div class="j"></div>
-        <div class="k"></div>
-        <div class="h"></div>
-        <div class="g"></div>
-        <div class="lib"></div>
-        <div class="gh1"></div>
-      </div>
+        <img src="./compass.png" class="compass"></img>
+        <div class="bh1 letterh">BH1</div>
+        <div class="bh2 letterh">BH2</div>
+        <div class="gh1 letterh">GH1</div>
+        <div class="lib letterh">LIB</div>
+        <div class="n letter">N</div>
+        <div class="m letter">M</div>
+        <div class="w letter">W</div>
+        <div class="e letter">E</div>
+        <div class="d letter">D</div>
+        <div class="b letter">B</div>
+        <div class="a letter">A</div>
+        <div class="c letter">C</div>
+        <div class="l letter">L</div>
+        <div class="f letter">F</div>
+        <div class="i letter">I</div>
+        <div class="j letter">J</div>
+        <div class="k letter">K</div>
+        <div class="h letter">H</div>
+        <div class="g letter">G</div>
+        <div class="sideroadlih1"></div>
+        <div class="sideroadlih2"></div>
+        <div class="sideroadbcfg1"></div>
+        <div class="sideroadbcfg2"></div>
+        <div class="sideroaddclk1"></div>
+        <div class="sideroaddclk2"></div>
+        <div class="sideroadghj1"></div>
+        <div class="sideroadghj2"></div>
+        <div class="sideroadal1"></div>
+        <div class="sideroadal2"></div>
+    </div>
     <!-- <canvas id="responsiveCanvas"></canvas> -->
     <!-- <canvas id="defaultCanvas0" class="p5Canvas"  style="width: 550px; height: 550px;"></canvas> -->
     </main>
   </div>
   <div class="container rightSide">
     <div class="container dept">
-      <h3 style="text-align: center;">Departments</h3>
+      <h3 class="depth" style="text-align: center;">Departments</h3>
       <table>
         <tr>
           <th>Sr. No.</th>
@@ -148,15 +159,16 @@
           <td>L</td>
         </tr>
         <tr>
-          <td>13</td>
-          <td>Civil Engineering Department</td>
-          <td>M</td>
-        </tr>
-        <tr>
           <td>14</td>
           <td>Mechanical Engineering Department</td>
           <td>M</td>
         </tr>
+        <tr>
+          <td>13</td>
+          <td>Civil Engineering Department</td>
+          <td>N</td>
+        </tr>
+
         <tr>
           <td>15</td>
           <td>Workshop</td>
@@ -203,6 +215,13 @@
           <option value="10">Block J</option>
           <option value="11">Block K</option>
           <option value="12">Block L</option>
+          <option value="13">Block M</option>
+          <option value="14">Block N</option>
+          <option value="15">BH-1</option>
+          <option value="16">BH-2</option>
+          <option value="17">GH-1</option>
+          <option value="18">Library</option>
+          <option value="19">Workshop</option>
         </select>
       </div>
 
@@ -222,13 +241,20 @@
           <option value="10">Block J</option>
           <option value="11">Block K</option>
           <option value="12">Block L</option>
+          <option value="13">Block M</option>
+          <option value="14">Block N</option>
+                    <option value="15">BH-1</option>
+                    <option value="16">BH-2</option>
+                    <option value="17">GH-1</option>
+                    <option value="18">Library</option>
+                    <option value="19">Workshop</option>
         </select>
       </div>
 
 
     </div>
     <div class="container">
-      <div onclick="showDirectionClick()" class="mybtn btn-primary button" id="btn">Show Direction</div>
+      <div onclick="showDirectionClick()" class="mybtn  button" id="btn">Show Direction</div>
     </div>
   </div>
   </div>

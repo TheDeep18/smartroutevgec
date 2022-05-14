@@ -3,6 +3,10 @@ body{
 }
 
 /* Navbar */
+.navbar{
+    margin-bottom: 25px;
+    }
+
 .navbarContainer {
     position: relative;
     margin-bottom: 40px;
@@ -79,6 +83,7 @@ body{
     width: 50%;
     margin-top: 20px;
     margin-bottom: 60px;
+    color: aliceblue;
 
 }
 
@@ -125,6 +130,7 @@ body{
     .btn {
         display: flex;
         display: block;
+        color: aliceblue;
         /* margin-left: 30px; */
         width: 200px;
         justify-self: center;
@@ -226,138 +232,179 @@ th {
 .dept {
     margin-top: 40px;
 }
+.depth {
+    margin-top: 60px;
+}
 
 .containerCanvas {
     position: relative;
 }
-
+.letter{
+    font-weight: bold;
+    padding-left: 12px;
+    /* transform: rotate(180deg); */
+}
+.letterh{
+    font-weight: 600;
+    /* padding-left: 12px; */
+    /* transform: rotate(180deg); */
+}
+.compass{
+height: 68px;
+position: absolute;
+left: 255px;
+}
 
 .bh1 {
     top: 40px;
     left: 6px;
-    transform: rotate(140deg);
+    transform: rotate(320deg);
     position: absolute;
     background-color: rgb(151, 63, 63);
     height: 60px;
     width: 30px;
+    z-index: 1;
+    /* opacity: 0.65; */
 }
 
 .bh2 {
     top: -12px;
     left: 32px;
-    transform: rotate(101deg);
+    transform: rotate(281deg);
     position: absolute;
     background-color: rgb(151, 63, 63);
     height: 60px;
     width: 30px;
+    z-index: 1;
+    /* opacity: 0.65; */
 }
 
 .gh1 {
     top: 241px;
     left: 307px;
-    transform: rotate(139deg);
+    transform: rotate(319deg);
     position: absolute;
     background-color: rgb(151, 63, 63);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
 }
 
 .n {
-    top: 24px;
-    left: 113px;
-    transform: rotate(103deg);
+top: 17px;
+left: 140px;
+transform: rotate(292deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(13% 1, 79% 0, 64% 100%, 0% 100%); */
 }
 
 .m {
-    top: 43px;
-    left: 172px;
-    transform: rotate(103deg);
+    top: 45px;
+    left: 201px;
+    transform: rotate(290deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(13% 1, 79% 0, 64% 100%, 0% 100%); */
 }
 
 .w {
-    top: 76px;
-    left: 231px;
-    transform: rotate(132deg);
+    top: 96px;
+    left: 265px;
+    transform: rotate(332deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .d {
     top: 245px;
     left: 2px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .e {
     top: 160px;
     left: 12px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .b {
     top: 319px;
     left: 82px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .a {
     top: 319px;
     left: 169px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .c {
     top: 245px;
     left: 81px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .l {
     top: 241px;
     left: 164px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.45; */
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
@@ -365,22 +412,26 @@ th {
 .f {
     top: 163px;
     left: 79px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .i {
     top: 166px;
     left: 161px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
 
 
     /* display: none; */
@@ -390,22 +441,26 @@ th {
 .k {
     top: 248px;
     left: 236px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
 
 }
 
 .j {
     top: 171px;
     left: 233px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
@@ -413,11 +468,13 @@ th {
 .g {
     top: 98px;
     left: 81px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
@@ -425,23 +482,152 @@ th {
 .h {
     top: 104px;
     left: 162px;
-    transform: rotate(147deg);
+    transform: rotate(327deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
 
 .lib {
-top: 112px;
-left: 269px;
-transform: rotate(145deg);
+top: 131px;
+left: 283px;
+transform: rotate(338deg);
     position: absolute;
     background-color: rgb(198, 201, 31);
     height: 35px;
     width: 35px;
+    z-index: 1;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroadlih1 {
+top: 128px;
+left: 170px;
+transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 123px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+
+.sideroadlih2 {
+top: 128px;
+left: 180px;
+transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 123px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+
+.sideroadbcfg1 {
+    top: 123px;
+    left: 92px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 202px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroadbcfg2 {
+    top: 123px;
+    left: 104px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 202px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroaddclk1 {
+    top: 149px;
+    left: 134px;
+    transform: rotate(270deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 214px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroaddclk2 {
+top: 165px;
+left: 134px;
+transform: rotate(270deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 202px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+
+
+.sideroadghj1{
+    top: 98px;
+    left: 167px;
+    transform: rotate(270deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 160px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroadghj2 {
+    top: 109px;
+    left: 167px;
+    transform: rotate(270deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 160px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+
+.sideroadal1 {
+    top: 259px;
+    left: 180px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 70px;
+    width: 7px;
+    /* opacity: 0.65; */
+    /* display: none; */
+    /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+.sideroadal2 {
+    top: 259px;
+    left: 191px;
+    transform: rotate(180deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 70px;
+    width: 7px;
+    /* opacity: 0.65; */
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
