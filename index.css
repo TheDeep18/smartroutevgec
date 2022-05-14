@@ -631,3 +631,76 @@ transform: rotate(270deg);
     /* display: none; */
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
 }
+.outroad1 {
+    top: 256px;
+    left: 211px;
+    transform: rotate(134deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 44px;
+    width: 9px;
+}
+.outroad2 {
+    top: 255px;
+    left: 198px;
+    transform: rotate(134deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+.outroad3 {
+    top: 133px;
+    left: 82px;
+    transform: rotate(134deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+.outroad4 {
+top: 141px;
+left: 72px;
+    transform: rotate(134deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+.outroad5 {
+    top: 259px;
+    left: 76px;
+    transform: rotate(56deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+.outroad6 {
+    top: 248px;
+    left: 69px;
+    transform: rotate(56deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+
+.outroad7 {
+    top: 136px;
+    left: 203px;
+    transform: rotate(46deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
+.outroad8 {
+    top: 127px;
+    left: 195px;
+    transform: rotate(46deg);
+    position: absolute;
+    background-color: rgb(198, 201, 31);
+    height: 53px;
+    width: 9px;
+}
