@@ -107,7 +107,7 @@ function getBlockCordinate(selectedBlock) {
       return grid[4][8] // Block BH1 done
       break; 
     case '16':
-      return grid[8][6] // Block BH2 done
+      return grid[7][7] // Block BH2 done
       break;
     case '17':
       return grid[54][47] // Block GH1 DONE
@@ -657,7 +657,7 @@ function setup() {
     grid[6][6],
     grid[4][7],
     // grid[5][7],
-    grid[5][8],
+    // grid[5][8],
     grid[6][8],
     grid[6][9],
     grid[7][9],
@@ -863,7 +863,8 @@ function setup() {
     grid[11][9],
     grid[10][9],
     grid[9][9],
-    grid[9][8],
+    // grid[9][8],
+    grid[7][8],
     grid[8][8],
     grid[8][9],
     // grid[8][7],
@@ -957,8 +958,8 @@ function setup() {
     // grid[51][48],
     grid[52][45],
     grid[52][46],
-    grid[52][48],
-    grid[52][47],
+    // grid[52][48],
+    // grid[52][47],
     grid[52][46],
     grid[52][45],
     grid[52][44],
@@ -980,7 +981,7 @@ function setup() {
     grid[52][28],
     grid[52][27],
     grid[52][26],
-    grid[53][47],
+    // grid[53][47],
     grid[53][46],
     grid[54][46],
     grid[55][46],
